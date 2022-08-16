@@ -12,8 +12,20 @@
     <div class="container">
       
       <form id="myForm">
-        <input id="numInput" class="numInput" type = "number">
-        <button id="btn" class="btn" type="submit">Check</button>
+       <label for="phone_number">
+         Input your phone number:
+       </label>
+        <input 
+          type="tel" 
+          name="phone_number" 
+          id="phone_number" 
+          pattern="/^[+0-9]+$/" 
+          placeholder="Phone number"
+          >
+        <section class="image">
+            <img src=" "  class="logo" id="logo">
+        </section>
+        
       </form>
       
     </div>

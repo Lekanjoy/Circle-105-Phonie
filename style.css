@@ -15,20 +15,38 @@
   background-size: cover;
   background-position: center;
 }
-form .numInput,
-.btn{
-  padding: .4rem .2rem;
-  outline: none;
-  border: 1px solid gray;
-  border-radius: 4px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: green; */
 }
-.btn{
-  background: green;
-  color: #fff;
-  font-weight: 500;
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    /* width: 40%; */
 }
-.btn:hover{
-  background: #23ec;
-  cursor: pointer;
-  transition: .3s ease-in;
+
+.number label{
+    margin-bottom: 1rem;
+}
+
+.logo{
+    border: 2px solid green;
+    border-radius: 1rem;
+    width: 7rem;
+    height: 5rem;
+    margin: 1rem 0;
+}
+
+.field {
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 3px solid #88d5e9;
+    outline: none;
 }
