@@ -22,11 +22,12 @@
 
 }
 form{
-    border: 1px solid rgb(39, 160, 53);
+    border: 2px solid rgb(14, 192, 196);
     padding: 2rem;
     display: flex;
     flex-direction: column;
     width: 80%;
+  border-radius: 12px;
 }
 input{
     padding: 1.5rem 1rem;
@@ -57,7 +58,7 @@ h1{
 }
 p{
   padding: 4px 0;
-  color: black;
+  color: beige;
 }
 .num{
     position: relative;
@@ -92,6 +93,12 @@ footer{
   position: absolute;
   bottom: 0;
 
+}
+@media (min-width:768px){
+  form{
+    width: 400px;
+    height: auto;
+  }
 }
 
 
